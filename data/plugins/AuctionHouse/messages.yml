@@ -1,0 +1,302 @@
+Version: 1
+Messages:
+  Syntax:
+    List: /ah list <price>
+    Search: /ah search <query>
+  Errors:
+    Player: '&cYou must be a player to execute this command.'
+    List:
+      No Item: '&cYou must be holding an item.'
+      Invalid Price: '&cThe price must be above $0.'
+    Listing Doesnt Exist: '&cThat listing no longer exists.'
+    Too Poor: '&cYou do not have enough money to purchase that.'
+    Valid Number: '&cYou must provide a valid number.'
+    Valid Percentage: '&cYou must provide a valid percentage.'
+    Greater Than Zero: '&cThe amount must be greater than 0.'
+    Too Small Stack Size: '&cThe amount must be less than the max stack size of the
+      item.'
+  Prefix Icon: »
+  Listing:
+    Bought:
+      Buyer: '&fYou have bought &e%item%&f for &2%price%&f.'
+      Creator: '&c%buyer%&f has bought &e%item%&f for &2%price%&f.'
+    Removed: '&fYour listing for &e%item%&f has been removed.'
+    Create: '&fYou have created an auction for &e%item%&f with the price of &2%price%&f.'
+  Expired Join Message: '&fYou have &e%amount%x Expired Listings&f waiting for you
+    to reclaim. Use &7&o/ah expired&f to reclaim.'
+  Minimum Listing: '&cYour listing price is too low! It must be above %price%.'
+  Maximum Listing: '&cYour listing price is too high! It must be below %price%.'
+  Cooldown Timer: '&eYou have %time% remaining before you can make another listing.'
+  Max Listings: '&cError! You can only have a maximum of %max% listings.'
+  Expired Reclaimed: '&fYou have reclaimed your listing of &e%item%&f.'
+  Safe Remove: '&fYou have successfully removed the listing of &e%item%&f.'
+  Cannot Afford Listing Fee: '&cYou do not have enough money to cover the listing
+    fee.'
+  Listing Edit Incompatible Price: '&cYou must provide a compatible price.'
+  Auction House Reload: '&7Reloading...'
+  Auction House Reload Complete: '&aReload complete.'
+Settings:
+  Admin Mode:
+    Name: '&eAdmin Mode'
+    Lore:
+    - '&7Open the auction house in admin mode automatically.'
+    - '%status%'
+  Expiration Notification:
+    Name: '&eNotify when near expiration'
+    Lore:
+    - '&7Notify you when an auction is about to expire.'
+    - '%status%'
+    Message: '&e%seller%&f''s listing of &e%listing% &fis about to expire in &e%time%&f.'
+  Expiration Time:
+    Name: '&eWhen to notify'
+    Lore:
+    - '&7Select how long an auction should have'
+    - '&7left before you are notified.'
+    - '&7Currently: &e%time%'
+    Message: '&eEnter how many seconds should be left on an auction before you are
+      notified. '
+  Listing Bought:
+    Name: '&eNotify when bought'
+    Lore:
+    - '&7Notify you when an auction is bought.'
+    - '%status%'
+    Message: '&e%buyer%&f has bought &e%seller%&f''s listing of &e%listing%&f for
+      &2$%price%&f.'
+  Sounds:
+    Name: '&eToggle sounds'
+    Lore:
+    - '&7Toggle sounds when interacting with the Auction House.'
+    - '%status%'
+  Listing Created:
+    Name: '&eNotify when created'
+    Lore:
+    - '&7Notify you when an auction is created.'
+    - '%status%'
+    Message: '&e%seller%&f has created a listing for &e%listing%&f for &2$%price%&f.'
+  Auto Confirm:
+    Name: '&eAutomatically confirm listings'
+    Lore:
+    - '&7Automatically confirm the creation of your listing.'
+    - '%status%'
+  Listing Fee:
+    Name: '&eListing Fee'
+    Message: '&eEnter the new listing fee or left click to cancel.'
+    Lore:
+    - '&7Change the listing fee amount or percentage.'
+    - '&fCurrent Fee: &e%fee%'
+  Sales Tax:
+    Name: '&eSales Tax'
+    Message: '&eEnter the new sales tax or left click to cancel.'
+    Lore:
+    - '&7Change the sales tax amount or percentage.'
+    - '&fCurrent tax: &e%tax%'
+  Creative Listing:
+    Name: '&eCreative Listing'
+    Message: '&cYou cannot create a listing while in creative mode.'
+    Lore:
+    - '&7Allow players to list items while in creative.'
+    - '%status%'
+  Listing Time:
+    Name: '&eListing Time'
+    Message: '&eEnter the new listing time in seconds or left click to cancel.'
+    Lore:
+    - '&7Change the amount of time a listing will be posted for.'
+    - '&fCurrent Time: &e%time%'
+GUIs:
+  Buttons:
+    Previous Page:
+      Name: '&6Previous Page'
+      Description:
+      - '&7Go to the previous page.'
+    Next Page:
+      Name: '&6Next Page'
+      Description:
+      - '&7Go to the next page.'
+    Confirm:
+      Name: '&a&lConfirm'
+      Description:
+      - '&7Click to confirm.'
+    Deny:
+      Name: '&c&lCancel'
+      Description:
+      - '&7Click to cancel.'
+    Return:
+      Name: '&c&lReturn'
+      Description:
+      - '&7&oGo back to the previous page.'
+  AuctionHouse:
+    Title: '&6&lAuction&f&lHouse'
+    Search:
+      Name: '&6Search'
+      Description:
+      - '&7Search for specific listings.'
+      Left Click: '&eLeft click to clear'
+      Right Click: '&eEnter your search query...'
+    Close Button:
+      Name: '&c&lClose'
+      Description:
+      - '&7&oClose the menu.'
+    Info Item:
+      Name: '&6Information'
+      Description:
+      - '&8&m&l-----------------------------------'
+      - ''
+      - '  &7Welcome to the Auction House!'
+      - '  &7There are &e%items% &7for sale.'
+      - '  &7You can list an item on the auction house with'
+      - '  &e/ah list <price>'
+      - ''
+      - '  &7Your Balance &8&m&l-&e %balance%'
+      - ''
+      - '&8&m&l-----------------------------------'
+    Expired Listings:
+      Name: '&6Expired Listings'
+      Description:
+      - '&7&oReclaim your expired listings.'
+    Sort:
+      Name: '&6Sort'
+      Description:
+      - '&7&oSort the listings.'
+    Listing:
+      Description:
+      - '&8&m&l---------------------------'
+      - ''
+      - '  &fTime Left &8&m&l-&e %time%'
+      - '  &fCreator &8&m&l-&e %creator%'
+      - ''
+      - '  &fPrice &8&m&l-&2 %price%'
+      - '  &fTax &8&m&l-&2 %tax%'
+      - '  &fTotal &8&m&l-&2 %total%'
+      - ''
+      - '%shulker%'
+      - '%self_info%'
+      - ''
+      - '&8&m&l---------------------------'
+      Seller Info:
+      - '  &c&oLeft Click to edit'
+      - '  &c&oShift + Right Click to remove'
+      Buyer Info:
+      - '  &7&oClick to purchase'
+    Expired:
+      Description:
+      - '&8&m&l---------------------------'
+      - ''
+      - '  &fStarted &8&m&l-&e %start%'
+      - '  &fExpired &8&m&l-&e %end%'
+      - '  &fPrice &8&m&l-&2 %price%'
+      - ''
+      - '  &7Click to reclaim item.'
+      - ''
+      - '&8&m&l---------------------------'
+      Admin Description:
+      - '&8&m&l---------------------------------'
+      - ''
+      - '  &fStarted &8&m&l-&e %start%'
+      - '  &fExpired &8&m&l-&e %end%'
+      - '  &fPrice &8&m&l-&2 %price%'
+      - '  &fReclaimed &8&m&l-&e %reclaimed%'
+      - '%shulker%'
+      - ''
+      - '  &7Shift + Right Click to remove listing.'
+      - ''
+      - '&8&m&l---------------------------------'
+    Completed:
+      Admin Description:
+      - '&8&m&l---------------------------------'
+      - ''
+      - '  &fStarted &8&m&l-&e %start%'
+      - '  &fBought &8&m&l-&e %end%'
+      - '  &fPrice &8&m&l-&2 %price%'
+      - '  &fBuyer &8&m&l-&e %buyer%'
+      - ''
+      - '%shulker%'
+      - '  &7Shift + Right Click to remove and refund listing.'
+      - ''
+      - '&8&m&l---------------------------------'
+    Seller Tag: seller
+  Confirm Buy:
+    Title: '&eAre you sure???'
+  Expire Reclaim:
+    Title: '&c&lExpired Item &f&lReclaim'
+  Listing Edit:
+    Title: '&eEdit your listing'
+    Price:
+      Click: '&eEnter the new price of your auction or left click to cancel.'
+      Name: '&6Price'
+      Description:
+      - '&7&oClick to edit the price.'
+    Amount:
+      Name: '&6Amount'
+      Description:
+      - '&eIf you enter a higher amount than the current listing,'
+      - '&eyou must have the items in your inventory.'
+      - '&eIf you enter a lower amount than the current listing,'
+      - '&eyou will be given the items you removed.'
+      - ' '
+      - '&7&oClick to remove or add items to this listing.'
+      Click: '&eEnter the new amount of your auction or left click to cancel.'
+  Shulker View:
+    Title: '&eAre you sure???'
+    Shulker Item:
+    - ' &fThere are &e%amount%&f items in this box.'
+    - ''
+  Sort:
+    Title: '&eSort Menu'
+    Phrases:
+      Overall Price:
+        Name: Overall Price
+        Description:
+        - Click to enable sorting by the overall price
+      Time Left:
+        Name: Time Left
+        Description:
+        - Click to enable sorting by the time remaining.
+      Cost per Item:
+        Name: Cost per Item
+        Description:
+        - Click to enable sorting by the cost of each item.
+      Amount of Items:
+        Name: Amount of Items
+        Description:
+        - Click to enable sorting by the amount of items in the listing.
+      Longest: Longest
+      Shortest: Shortest
+      Highest: Highest
+      Lowest: Lowest
+  Auction House Admin:
+    Title: '&6&lAuctionHouse Admin Menu'
+    Listing:
+    - '&8&m&l---------------------------'
+    - ''
+    - '  &fTime Left &8&m&l-&e %time%'
+    - '  &fCreator &8&m&l-&e %creator%'
+    - '  &fPrice &8&m&l-&2 %price%'
+    - ''
+    - '%shulker%'
+    - '  &cLeft click to edit listing'
+    - '  &cShift + Right Click to Safely Remove'
+    - ''
+    - '&8&m&l---------------------------'
+  NPC:
+    Lore:
+    - '&fLocation:'
+    - '&fX: &e%x%'
+    - '&fY: &e%y%'
+    - '&fZ: &e%z%'
+    - ' '
+    - '&7Left click to teleport'
+    - '&7Shift + Left Click to remove auctioneer trait'
+    - '&7Shift + Right Click to delete NPC'
+  Confirm List:
+    Display Lore:
+    - '&8&m&l-------------------------------'
+    - ' '
+    - ' &fListing Amount: &e%amount%'
+    - ' &fListing Fee: &e%fee%'
+    - ' '
+    - '&7&oListing fee will be removed when listing is posted'
+    - ' '
+    - '&8&m&l-------------------------------'
+    Title: '&6Confirm Listing'
+  Main Sound:
+    Title: '&6Select Sound to Change...'

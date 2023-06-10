@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 192.168.160.1
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1686423674629
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1686423715190
+  login: 1686423150998
+money: '999500.0'
+last-account-name: skyface753
+lastlocation:
+  world: afea7ef6-2dd4-47a5-9738-099381f8914e
+  world-name: oneblock_world
+  x: 800.5
+  y: 80.875
+  z: 800.5
+  yaw: 2.8499960899353027
+  pitch: 31.799983978271484
+logoutlocation:
+  world: a3d22982-536b-40b7-a150-b1617c677c5a
+  world-name: world
+  x: -186.68169792009917
+  y: 70.0
+  z: -21.67592235166998
+  yaw: -4.50048828125
+  pitch: 8.400005340576172

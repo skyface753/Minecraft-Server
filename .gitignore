@@ -1,0 +1,10 @@
+data/backups
+data/cache
+data/config
+data/downloads
+data/libraries
+data/logs
+data/versions
+data/oneblock_*
+data/world
+data/world_*

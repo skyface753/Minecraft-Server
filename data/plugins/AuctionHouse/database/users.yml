@@ -1,0 +1,10 @@
+3c506a13-aae6-4873-9b60-baf0094e2f8a:
+  Username: skyface753
+  Alert Create Listings: true
+  Open Admin Mode: false
+  Alert Near Expire:
+    Status: false
+    Time: 300
+  Alert Listing Bought: false
+  Auto Confirm Listing: false
+  Sounds: true
