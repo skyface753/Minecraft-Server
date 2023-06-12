@@ -1,0 +1,6 @@
+# This file is automatically maintained be the plugin itself
+
+# Here are stored all generators placed on the server
+generators:
+- stone|1988.0|oneblock_world|-1.0|81.0|-1.0
+- cobblestone|995.0|oneblock_world|-1.0|81.0|0.0

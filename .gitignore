@@ -8,3 +8,7 @@ data/versions
 data/oneblock_*
 data/world
 data/world_*
+data/plugins/AdvancedTeleport/.libs/*
+data/plugins/AuctionHouse/logs/*
+data/plugins/Essentials/userdata/*
+data/plugins/KGenerators/logs/*
