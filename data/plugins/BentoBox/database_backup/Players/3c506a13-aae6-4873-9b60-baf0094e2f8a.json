@@ -5,8 +5,10 @@
   "resets": {},
   "locale": "",
   "deaths": {
-    "oneblock_world": 0
+    "oneblock_world": 0,
+    "bskyblock_world": 0
   },
   "pendingKicks": [],
-  "flagsDisplayMode": "BASIC"
+  "flagsDisplayMode": "BASIC",
+  "metaData": {}
 }
