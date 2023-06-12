@@ -136,7 +136,7 @@ worlds:
     bedRespawn: 'true'
     worldBlacklist: []
     environment: THE_END
-    seed: '5648432434653253257'
+    seed: '-4237285055587355899'
     generator: BentoBox
     playerLimit: '-1'
     allowFlight: 'true'
@@ -183,7 +183,7 @@ worlds:
     bedRespawn: 'true'
     worldBlacklist: []
     environment: NORMAL
-    seed: '-1608708276318089881'
+    seed: '6361676269172727604'
     generator: BentoBox
     playerLimit: '-1'
     allowFlight: 'true'
@@ -277,7 +277,7 @@ worlds:
     bedRespawn: 'true'
     worldBlacklist: []
     environment: NETHER
-    seed: '-4454733345434770585'
+    seed: '-6858366925468069892'
     generator: BentoBox
     playerLimit: '-1'
     allowFlight: 'true'

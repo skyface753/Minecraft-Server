@@ -2,15 +2,12 @@
   "homeLocations": {},
   "uniqueId": "3c506a13-aae6-4873-9b60-baf0094e2f8a",
   "playerName": "skyface753",
-  "resets": {
-    "oneblock_world": 1
-  },
+  "resets": {},
   "locale": "",
   "deaths": {
-    "bskyblock_world": 0,
     "oneblock_world": 0
   },
   "pendingKicks": [],
-  "flagsDisplayMode": "EXPERT",
+  "flagsDisplayMode": "BASIC",
   "metaData": {}
 }

@@ -1,4 +1,4 @@
-Version: 1
+Version: 2
 Messages:
   Syntax:
     List: /ah list <price>
@@ -105,11 +105,11 @@ Settings:
 GUIs:
   Buttons:
     Previous Page:
-      Name: '&6Previous Page'
+      Name: '&6Previous Page &7&o(%previous%/%max%)'
       Description:
       - '&7Go to the previous page.'
     Next Page:
-      Name: '&6Next Page'
+      Name: '&6Next Page &7&o(%next%/%max%)'
       Description:
       - '&7Go to the next page.'
     Confirm:
